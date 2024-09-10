@@ -8,7 +8,7 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 
 > We present the first time a large-scale human motion benchmark, **Holistic-Motion2D**, including over 1M in-the-wild motion sequences, each paired with high-quality whole-body or partial pose annotations and textual descriptions.
 
-<img src="C:/Users/ll/OneDrive/组会-投稿-毕设/论文投稿/TPAMI-Motion2D/Holistic-Motion2D宣传材料/Meta-Motion2D/image-20240817150254870.png" alt="image-20240817150254870" style="zoom:50%;" />
+<img src="Meta-Motion2D/image-20240817150254870.png" alt="image-20240817150254870" style="zoom:50%;" />
 
 - Our Holistic-Motion2D dataset provides not only fine-grained and comprehensive whole-body motion annotations but also high-resolution information on the **face** and **hands**. We use multi-source datasets with images of varying resolutions to jointly train a human generative foundation model.
 
