@@ -62,55 +62,7 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 ![image-20240817173409065](Meta-Motion2D/image-20240817173409065.png)
 
 - Our Text-drivEN whole-boDy motion genERation (**Tender**), is tailored for 2D whole-body human motion synthesis. This model incorporates two novel designs to enhance the quality of generated motion: Part-aware Attention for Motion Variational Auto-Encoder (PA-VAE) and Confidence-Aware Generation (CAG).
-
-# Generation Results
-
-<table>
-  <tr>
-    <td>
-      <video src="Supplementary Materials\2d motion results comparison\squat\mdm.mp4" width="150" controls></video>
-    </td>
-    <td>
-      <video src="Supplementary Materials\2d motion results comparison\squat\mld.mp4" width="150" controls></video>
-    </td>
-    <td>
-      <video src="Supplementary Materials\2d motion results comparison\squat\t2mgpt.mp4" width="150" controls></video>
-    </td>
-    <td style="text-align:center;">
-      <video src="Supplementary Materials\2d motion results comparison\squat\tender.mp4" width="150" controls></video>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <video src="Supplementary Materials\2d motion results comparison\throwing ball\mdm.mp4" width="150" controls></video>
-    </td>
-    <td>
-      <video src="Supplementary Materials\2d motion results comparison\throwing ball\mld.mp4" width="150" controls></video>
-    </td>
-    <td>
-      <video src="Supplementary Materials\2d motion results comparison\throwing ball\t2mgpt.mp4" width="150" controls></video>
-    </td>
-    <td style="text-align:center;">
-      <video src="Supplementary Materials\2d motion results comparison\throwing ball\tender.mp4" width="150" controls></video>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align:center;">
-      MDM
-    </td>
-    <td style="text-align:center;">
-      MLD
-    </td>
-    <td style="text-align:center;">
-      T2M-GPT
-    </td>
-    <td style="text-align:center;">
-      Tender(Ours)
-    </td>
-  </tr>
-</table>
-
-
+  
 - Notably, Tender consistently outperforms these benchmarks by generating more vivid and lifelike human motion sequences. Our Tender not only captures the nuanced dynamics of human movement but also enhances the fidelity and temporal consistency of the motions.
 
 # Downstream Applications
