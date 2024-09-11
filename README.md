@@ -62,21 +62,66 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 ![image-20240817173409065](Meta-Motion2D/image-20240817173409065.png)
 
 - Our Text-drivEN whole-boDy motion genERation (**Tender**), is tailored for 2D whole-body human motion synthesis. This model incorporates two novel designs to enhance the quality of generated motion: Part-aware Attention for Motion Variational Auto-Encoder (PA-VAE) and Confidence-Aware Generation (CAG).
-  
+
+<table>
+  <tr>
+    <td>
+      <video src="Supplementary Materials\2d motion results comparison\squat\mdm.gif" width="150" controls></video>
+    </td>
+    <td>
+      <video src="Supplementary Materials\2d motion results comparison\squat\mld.gif" width="150" controls></video>
+    </td>
+    <td>
+      <video src="Supplementary Materials\2d motion results comparison\squat\t2mgpt.gif" width="150" controls></video>
+    </td>
+    <td style="text-align:center;">
+      <video src="Supplementary Materials\2d motion results comparison\squat\tender.gif" width="150" controls></video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src="Supplementary Materials\2d motion results comparison\throwing ball\mdm.gif" width="150" controls></video>
+    </td>
+    <td>
+      <video src="Supplementary Materials\2d motion results comparison\throwing ball\mld.gif" width="150" controls></video>
+    </td>
+    <td>
+      <video src="Supplementary Materials\2d motion results comparison\throwing ball\t2mgpt.gif" width="150" controls></video>
+    </td>
+    <td style="text-align:center;">
+      <video src="Supplementary Materials\2d motion results comparison\throwing ball\tender.gif" width="150" controls></video>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">
+      MDM
+    </td>
+    <td style="text-align:center;">
+      MLD
+    </td>
+    <td style="text-align:center;">
+      T2M-GPT
+    </td>
+    <td style="text-align:center;">
+      Tender(Ours)
+    </td>
+  </tr>
+</table>
+
 - Notably, Tender consistently outperforms these benchmarks by generating more vivid and lifelike human motion sequences. Our Tender not only captures the nuanced dynamics of human movement but also enhances the fidelity and temporal consistency of the motions.
 
 # Downstream Applications
 
-<div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\barbell.mp4" width="100%" controls></video> </div> <div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\dance.mp4" width="100%" controls></video> </div>
+<div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\barbell.gif" width="100%" controls></video> </div> <div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\dance.gif" width="100%" controls></video> </div>
 
-<div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.mp4" width="100%" controls></video> </div> <div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\squats.mp4" width="100%" controls></video> </div>
+<div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.gif" width="100%" controls></video> </div> <div style="display: inline-block; width: 48%;">     <video src="Supplementary Materials\downstream\pose-guided human video generation\squats.gif" width="100%" controls></video> </div>
 
 - Using MagicAnimate, we dynamically animate a human character by applying our generated pose sequences, resulting in
   exceptionally lifelike and fluid animations that demonstrate the seamless integration of our Tender model with real-time video generation tools.
 
-<div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\barbell.mp4" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\dumbbell.mp4" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\lifting weights.mp4" width="100%" controls></video> </div>
+<div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\barbell.gif" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\dumbbell.gif" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\lifting weights.gif" width="100%" controls></video> </div>
 
-<div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\lying exercise.mp4" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\squats.mp4" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\throwing ball.mp4" width="100%" controls></video> </div>
+<div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\lying exercise.gif" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\squats.gif" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <video src="Supplementary Materials\downstream\3d motion lifting\throwing ball.gif" width="100%" controls></video> </div>
 
 - We employ MotionBERT to elevate these 2D human motions into 3D space, showcasing our model’s ability to facilitate complex 3D pose estimations. The lifted 3D motions maintain a high degree of smoothness and fidelity, making them suitable for applications in virtual reality (VR) and augmented reality (AR), where immersive and accurate 3D representations are essential.
 
