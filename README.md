@@ -112,9 +112,24 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 
 # Downstream Applications
 
-<div style="display: inline-block; width: 48%;">     <img src="Supplementary Materials\downstream\pose-guided human video generation\barbell.gif" width="100%" controls></img> </div> <div style="display: inline-block; width: 48%;">     <img src="Supplementary Materials\downstream\pose-guided human video generation\dance.gif" width="100%" controls></img> </div>
-
-<div style="display: inline-block; width: 48%;">     <img src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.gif" width="100%" controls></img> </div> <div style="display: inline-block; width: 48%;">     <img src="Supplementary Materials\downstream\pose-guided human video generation\squats.gif" width="100%" controls></img> </div>
+<table>
+  <tr>
+    <td>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\barbell.gif" width="620" controls></img>
+    </td>
+    <td>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\dance.gif" width="620" controls></img>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.gif" width="620" controls></img>
+    </td>
+    <td>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\squats.gif" width="620" controls></img>
+    </td>
+  </tr>
+</table>
 
 - Using MagicAnimate, we dynamically animate a human character by applying our generated pose sequences, resulting in
   exceptionally lifelike and fluid animations that demonstrate the seamless integration of our Tender model with real-time video generation tools.
