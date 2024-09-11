@@ -115,18 +115,18 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 <table>
   <tr>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\barbell.gif" width="450" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\barbell.gif" width="350" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\dance.gif" width="450" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\dance.gif" width="350" controls></img>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.gif" width="450" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.gif" width="350" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\squats.gif" width="450" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\squats.gif" width="350" controls></img>
     </td>
   </tr>
 </table>
@@ -137,24 +137,24 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 <table>
   <tr>
     <td>
-      <img src="Supplementary Materials\downstream\3d motion lifting\barbell.gif" width="300" controls></img>
+      <img src="Supplementary Materials\downstream\3d motion lifting\barbell.gif" width="250" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\3d motion lifting\dumbbell.gif" width="300" controls></img>
+      <img src="Supplementary Materials\downstream\3d motion lifting\dumbbell.gif" width="250" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\3d motion lifting\lifting weights.gif" width="300" controls></img>
+      <img src="Supplementary Materials\downstream\3d motion lifting\lifting weights.gif" width="250" controls></img>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="Supplementary Materials\downstream\3d motion lifting\lying exercise.gif" width="300" controls></img>
+      <img src="Supplementary Materials\downstream\3d motion lifting\lying exercise.gif" width="250" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\3d motion lifting\squats.gif" width="300" controls></img>
+      <img src="Supplementary Materials\downstream\3d motion lifting\squats.gif" width="250" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\3d motion lifting\throwing ball.gif" width="300" controls></img>
+      <img src="Supplementary Materials\downstream\3d motion lifting\throwing ball.gif" width="250" controls></img>
     </td>
   </tr>
 </table>
