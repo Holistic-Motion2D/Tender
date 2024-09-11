@@ -115,18 +115,18 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 <table>
   <tr>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\barbell.gif" width="620" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\barbell.gif" width="450" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\dance.gif" width="620" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\dance.gif" width="450" controls></img>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.gif" width="620" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\dumbbell.gif" width="450" controls></img>
     </td>
     <td>
-      <img src="Supplementary Materials\downstream\pose-guided human video generation\squats.gif" width="620" controls></img>
+      <img src="Supplementary Materials\downstream\pose-guided human video generation\squats.gif" width="450" controls></img>
     </td>
   </tr>
 </table>
