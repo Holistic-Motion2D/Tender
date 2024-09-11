@@ -134,10 +134,30 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 - Using MagicAnimate, we dynamically animate a human character by applying our generated pose sequences, resulting in
   exceptionally lifelike and fluid animations that demonstrate the seamless integration of our Tender model with real-time video generation tools.
 
-<div style="display: inline-block; width: 30%;">     <img src="Supplementary Materials\downstream\3d motion lifting\barbell.gif" width="100%" controls></img> </div> <div style="display: inline-block; width: 30%;">     <img src="Supplementary Materials\downstream\3d motion lifting\dumbbell.gif" width="100%" controls></img> </div> <div style="display: inline-block; width: 30%;">     <img src="Supplementary Materials\downstream\3d motion lifting\lifting weights.gif" width="100%" controls></img> </div>
-
-<div style="display: inline-block; width: 30%;">     <img src="Supplementary Materials\downstream\3d motion lifting\lying exercise.gif" width="100%" controls></video> </div> <div style="display: inline-block; width: 30%;">     <img src="Supplementary Materials\downstream\3d motion lifting\squats.gif" width="100%" controls></img> </div> <div style="display: inline-block; width: 30%;">     <img src="Supplementary Materials\downstream\3d motion lifting\throwing ball.gif" width="100%" controls></img> </div>
-
+<table>
+  <tr>
+    <td>
+      <img src="Supplementary Materials\downstream\3d motion lifting\barbell.gif" width="300" controls></img>
+    </td>
+    <td>
+      <img src="Supplementary Materials\downstream\3d motion lifting\dumbbell.gif" width="300" controls></img>
+    </td>
+    <td>
+      <img src="Supplementary Materials\downstream\3d motion lifting\lifting weights.gif" width="300" controls></img>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Supplementary Materials\downstream\3d motion lifting\lying exercise.gif" width="300" controls></img>
+    </td>
+    <td>
+      <img src="Supplementary Materials\downstream\3d motion lifting\squats.gif" width="300" controls></img>
+    </td>
+    <td>
+      <img src="Supplementary Materials\downstream\3d motion lifting\throwing ball.gif" width="300" controls></img>
+    </td>
+  </tr>
+</table>
 - We employ MotionBERT to elevate these 2D human motions into 3D space, showcasing our model’s ability to facilitate complex 3D pose estimations. The lifted 3D motions maintain a high degree of smoothness and fidelity, making them suitable for applications in virtual reality (VR) and augmented reality (AR), where immersive and accurate 3D representations are essential.
 
 # License
