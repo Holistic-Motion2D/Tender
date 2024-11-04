@@ -3,6 +3,7 @@ This is the official code release of **[Holistic-Motion2D: Scalable Whole-body H
 
 
 ## 📝 Changelog
+- __[2024.11.04]__: 🔥 Release the whole Holistic-Motion2D dataset. Find in [Data Page](https://openxlab.org.cn/datasets/yuanwang/Holistic-Motion2D). 
 - __[2024.06.20]__: 🔥 Release a sample dataset. Find in [Data Page](https://github.com/Holistic-Motion2D/Holistic-Motion2D). Code is coming soon!
 - __[2024.09.10]__: 🔥 Release the introduction and demo representations of our work, Holistic-Motion2D.
 
